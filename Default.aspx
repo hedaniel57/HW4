@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title></title><link rel="stylesheet" type="text/css" href="Format.css" />
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-    Qie He Salary Amount</div>
+    <h1>Qie He Salary Amount</h1></div>
         <asp:Label ID="lbl_hourlyWage" runat="server" Text="Hourly wage"></asp:Label>
         <br />
         <asp:TextBox ID="tb_hourlyWage" runat="server"></asp:TextBox>
